@@ -1,0 +1,210 @@
+body {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4be0bbc8-67a5-4075-8eb4-00caedbc5e80/daxfjq3-aa743b98-d4c4-43f2-b47a-f8a9d56a5301.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRiZTBiYmM4LTY3YTUtNDA3NS04ZWI0LTAwY2FlZGJjNWU4MFwvZGF4ZmpxMy1hYTc0M2I5OC1kNGM0LTQzZjItYjQ3YS1mOGE5ZDU2YTUzMDEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pNsPsG5ARoRAhx8pKj_nANl21oVEjsthz_JPTJKwtr8');
+    margin: 0px;
+}
+
+.banner img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    background-color: rgb(242, 163, 163);
+    padding: 10px;
+    text-align: center;
+}
+
+hr {
+    border: 4px solid rgb(83, 136, 171);
+    border-radius: 4px;
+    opacity: 0.6;
+}
+
+.menu {
+    border-radius: 20px;
+    padding: 0px;
+    background-color: rgb(202, 202, 202);
+    width: fit-content;
+    margin-top: 20px;
+    box-shadow: rgba(162, 147, 236, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.inner {
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(223, 223, 223);
+    display: grid;
+    text-align: center;
+    width: 620px;
+    border-radius: 25px;
+}
+
+.inner a {
+    padding: 10px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.inner-end a {
+    padding: 10px;
+    background-color: rgb(188, 229, 215);
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.inner a:last-child {
+    margin-right: 0px;
+}
+
+.inner a:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(202, 202, 202);
+}
+
+.intro {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: row;
+}
+
+.intro h1 {
+    font-family: Montserrat;
+}
+
+.intro img {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.title {
+    line-height: 25px;
+    margin: 0px;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgb(230, 97, 71);
+    opacity: 0.90;
+    border-radius: 25px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #D5A6A6;
+    opacity: 0,8;
+}
+
+
+input {
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+    border: 0px none;
+    padding: 10px;
+    font-family: Montserrat;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    border-radius: 15px;
+    background-color: rgb(223, 223, 223);
+    border: 0px none;
+    padding: 10px;
+    font-family: Montserrat;
+    width: 100%;
+    resize: none;
+    margin-top: 10px;
+    height: fit-content;
+}
+
+button {
+    border-radius: 25px;
+    background-color: rgb(223, 223, 223);
+    font-family: Montserrat;
+    border: 0px none;
+    padding: 5px 10px;
+}
+
+button:hover {
+    font-family: Montserrat;
+    background-color: rgb(202, 202, 202);
+
+
+}
+
+.map {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-family: Montserrat;
+
+}
+
+.form {
+    margin-right: 10px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    flex: 75%;
+}
+
+.content2 {
+    padding: 20px;
+    padding-bottom: 0px;
+    background-color: rgb(225, 212, 23);
+    opacity: 0.90;
+}
+
+.otros {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    flex: 25%;
+}
+
+ul {
+    padding: 0px;
+    line-height: 35px;
+}
+
+.grid {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.otros a {
+    text-decoration: none;
+}
+
+.drive {
+    line-height: normal;
+}
+
+.index {
+    text-align: center;
+    border-radius: 20px;
+    padding: 0px;
+    width: fit-content;
+    margin-top: 20px;
+    box-shadow: rgba(162, 147, 236, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
